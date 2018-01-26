@@ -9,24 +9,24 @@ Your character name is added as default on trigger, and so is your guild.
 Type /proxy notify help for list of all commands.
 But basically to add your own custum trigger name 
 
-/proxy notify add name (to add name to list of your triggers).
-/proxy notify remove name (to remove name).
+* /proxy notify add name (to add name to list of your triggers).
+* /proxy notify remove name (to remove name).
 
-@Apple message, will read message to everyone in Apple that has this,
-@charname message, will read message to you only, or I suppose more than one people if you both use same triggernames xD
+* @Apple message, will read message to everyone in Apple that has this,
+* @charname message, will read message to you only, or I suppose more than one people if you both use same triggernames xD
 
 Party(Raid) and Guild are enabled by default, whisper is not. If you want to change this, just change the guild/party/whisper in index.js to true or false. To toggle it ingame, the command is
-/proxy notify party (to toggle party)
-/proxy notify guild (to toggle guild)
-/proxy notify whisper (to toggle whisper)
+* /proxy notify party (to toggle party)
+* /proxy notify guild (to toggle guild)
+* /proxy notify whisper (to toggle whisper)
 
 If you want to block someone, the command is
-/proxy notify block characterName (blocks characterName, sync across your computer)
-Ex. /proxy notify Apple
+* /proxy notify block characterName (blocks characterName, sync across your computer)
+* Ex. /proxy notify Apple
 
 To unblock,
-/proxy notify unblock characterName
-Ex. /proxy notify unblock Apple
+* /proxy notify unblock characterName
+* Ex. /proxy notify unblock Apple
 
 It is on by default in guild and party chat, however whisper is turned off, you can turn it on permanently on index.js, just change false to true.
 
